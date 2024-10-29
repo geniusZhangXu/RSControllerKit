@@ -22,7 +22,7 @@ pod 'RSControllerKit'
 
 ## Author
 
-geniusZhangXu, 1872684219@qq.com
+Mr.RisingSun, 13535471825@163.com
 
 ## License
 
