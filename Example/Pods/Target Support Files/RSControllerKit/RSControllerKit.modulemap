@@ -1,0 +1,6 @@
+framework module RSControllerKit {
+  umbrella header "RSControllerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

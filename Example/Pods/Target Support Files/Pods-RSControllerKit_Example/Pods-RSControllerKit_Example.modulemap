@@ -1,0 +1,6 @@
+framework module Pods_RSControllerKit_Example {
+  umbrella header "Pods-RSControllerKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
