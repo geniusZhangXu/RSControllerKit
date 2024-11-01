@@ -52,7 +52,7 @@ public class RSNavigationBarView: RSView {
 extension RSNavigationBarView{
     
     /// 给子视图添加约束
-    override func rsAddLayoutConstraintWithSubviews() {
+    public override func rsAddLayoutConstraintWithSubviews() {
         super.rsAddLayoutConstraintWithSubviews()
         
         self.addSubview(self.rsReturnButton)

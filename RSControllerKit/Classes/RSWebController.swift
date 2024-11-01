@@ -116,7 +116,7 @@ extension RSWebController:WKUIDelegate,WKNavigationDelegate{
 
 extension RSWebController{
     
-    override func rsAddLayoutConstraintWithSubviews() {
+    public override func rsAddLayoutConstraintWithSubviews() {
         super.rsAddLayoutConstraintWithSubviews()
         
         self.rsContentView.addSubview(self.rsWkWebView)
