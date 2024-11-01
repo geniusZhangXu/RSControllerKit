@@ -10,7 +10,7 @@ import WebKit
 import Foundation
 
 /// RSWebController
-class RSWebController: RSViewController {
+public class RSWebController: RSViewController {
     
     /// WKWebViewConfiguration
     private lazy var rsConfiguration: WKWebViewConfiguration = {
@@ -46,7 +46,7 @@ class RSWebController: RSViewController {
     
     /// 根据加载的Url初始化控制器
     /// - Parameter rsLoadUrlString: rsLoadUrlString description
-    convenience init(_ rsLoadUrlString:String) {
+    public convenience init(_ rsLoadUrlString:String) {
         self.init()
         
         self.rsLoadUrlString = rsLoadUrlString
@@ -57,7 +57,7 @@ class RSWebController: RSViewController {
 extension RSWebController {
     
     /// Description
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
         /// 加载Web需要展示的内容
@@ -79,7 +79,7 @@ extension RSWebController:WKUIDelegate,WKNavigationDelegate{
     /// 网页加载完毕
     /// - Parameter webView: webView description
     /// - Parameter navigation: navigation description
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+    public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
       
         /// 延时0.5秒消失
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
@@ -92,7 +92,7 @@ extension RSWebController:WKUIDelegate,WKNavigationDelegate{
     /// - Parameter object:  object description
     /// - Parameter change:  change description
     /// - Parameter context: context description
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
     
         self.rsProgressView.progress = Float(self.rsWkWebView.estimatedProgress)
     }
@@ -102,7 +102,7 @@ extension RSWebController:WKUIDelegate,WKNavigationDelegate{
     ///   - webView: webView description
     ///   - navigation: navigation description
     ///   - error: error description
-    func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+    public func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         
         /// 去掉加载进度
         UIView.animate(withDuration: 0.5) {

@@ -9,11 +9,11 @@ import UIKit
 import Foundation
 
 /// RSLabel
-class RSLabel: UILabel {
+public class RSLabel: UILabel {
     
     /// Description
     /// - Parameter frame: frame description
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
 
         self.isUserInteractionEnabled = true
@@ -26,7 +26,7 @@ class RSLabel: UILabel {
     }
     
     /// 设置圆角
-    open var rsCornerRadius:CGFloat = 0 {
+    public var rsCornerRadius:CGFloat = 0 {
         didSet{
             self.layer.masksToBounds = true
             self.layer.cornerRadius = rsCornerRadius
@@ -34,21 +34,21 @@ class RSLabel: UILabel {
     }
     
     /// SystemFontSize
-    open var rlSystemFont:CGFloat = 0.0 {
+    public var rlSystemFont:CGFloat = 0.0 {
         didSet{
             self.font = UIFont.systemFont(ofSize: rlSystemFont)
         }
     }
     
     /// BoldSize
-    open var rsBoldFont:CGFloat = 0.0 {
+    public var rsBoldFont:CGFloat = 0.0 {
         didSet{
             self.font = UIFont.boldSystemFont(ofSize: rsBoldFont)
         }
     }
 
     /// Lable设置边框颜色
-    open var rsBorderColor:UIColor = .white {
+    public var rsBorderColor:UIColor = .white {
         didSet{
             self.layer.borderWidth = 1
             self.layer.borderColor = rsBorderColor.cgColor

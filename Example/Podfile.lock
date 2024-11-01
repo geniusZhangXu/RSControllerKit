@@ -16,7 +16,7 @@ PODS:
     - iOSSnapshotTestCase (~> 8.0)
     - Nimble
   - Quick (2.2.1)
-  - RSControllerKit (0.0.1)
+  - RSControllerKit (0.0.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -43,7 +43,7 @@ SPEC CHECKSUMS:
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
-  RSControllerKit: ea4907422f7c895f3284ec3d637da9e31922f581
+  RSControllerKit: e5accdeb79d2aa28e3b6e6a74d32318282cacaab
 
 PODFILE CHECKSUM: 6973e7d7b6d6205585faa6e7224f234320f969e1
 

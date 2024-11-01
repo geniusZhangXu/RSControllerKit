@@ -9,10 +9,10 @@ import UIKit
 import Foundation
 
 /// RSViewController
-class RSViewController: UIViewController {
+public class RSViewController: UIViewController {
     
     /// rsNavigationBarView
-    open lazy var rsNavigationBarView: RSNavigationBarView = {
+    public lazy var rsNavigationBarView: RSNavigationBarView = {
         
         let rsNavigationBarView = RSNavigationBarView()
         rsNavigationBarView.frame = CGRect.init(x: 0, y: 0, width: RSScreenWidth, height: RSTopViewHeight())
@@ -21,7 +21,7 @@ class RSViewController: UIViewController {
     }()
     
     /// rlContentView
-    open lazy var rsContentView: RSView = {
+    public lazy var rsContentView: RSView = {
         
         let rsContentView = RSView()
         rsContentView.frame = CGRect.init(x: 0, y: 0, width: RSScreenWidth, height: RSScreenHeight)
@@ -30,21 +30,28 @@ class RSViewController: UIViewController {
     }()
     
     /// 设置Navigation的标题
-    open var rsNavigationTitle:String = "" {
+    public var rsNavigationTitle:String = "" {
         didSet {
             self.rsNavigationBarView.rsTitleLabel.text = rsNavigationTitle
         }
     }
     
+    /// 设置返回按钮的图片
+    public var rsReturnBtnImage:String = "" {
+        didSet {
+            self.rsNavigationBarView.rsReturnButton.setImage(UIImage(named: rsReturnBtnImage), for: .normal)
+        }
+    }
+    
     /// 右边的按钮-需要定义成变量-后续我们可以直接赋值给它
-    open var rsRightButton: RSButton?{
+    public var rsRightButton: RSButton?{
         didSet {
             self.rsNavigationBarView.rsRightButton = rsRightButton
         }
     }
     
     /// 页面是否正在展示状态
-    open var rsControllerActiveState:Bool = false
+    public var rsControllerActiveState:Bool = false
     
     /// 控制器释放会执行该方法
     deinit {
@@ -56,7 +63,7 @@ class RSViewController: UIViewController {
 extension RSViewController{
     
     /// Description
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
          
         /// 处理RSViewController的基础配置数据
@@ -65,7 +72,7 @@ extension RSViewController{
     
     /// Description
     /// - Parameter animated: animated description
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
   
         self.rsControllerActiveState = true
@@ -73,17 +80,17 @@ extension RSViewController{
     
     /// Description
     /// - Parameter animated: animated description
-    override func viewWillDisappear(_ animated: Bool) {
+    public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         self.rsControllerActiveState = false
     }
     
     /// 以下方法在需要的时候进行重写
-    @objc open func rsAppWillResignActiveNotification(){}
-    @objc open func rsAppWillEnterForegroundNotification(){}
-    @objc open func rsApplicationWillTerminateNotification(){}
-    @objc open func rsAppProtectedDataWillBecomeUnavailableNotification(){}
+    @objc public func rsAppWillResignActiveNotification(){}
+    @objc public func rsAppWillEnterForegroundNotification(){}
+    @objc public func rsApplicationWillTerminateNotification(){}
+    @objc public func rsAppProtectedDataWillBecomeUnavailableNotification(){}
     
 }
 

@@ -9,11 +9,11 @@ import UIKit
 import Foundation
 
 /// RSImageView
-class RSImageView: UIImageView {
+public class RSImageView: UIImageView {
     
     /// Description
     /// - Parameter image: image description
-    override init(image: UIImage?) {
+    public override init(image: UIImage?) {
         super.init(image: image)
         
         self.backgroundColor = .clear
@@ -22,7 +22,7 @@ class RSImageView: UIImageView {
     
     /// 根据图片名称便利构造ImageView
     /// - Parameter rsImageName: rsImageName description
-    convenience init(rsImageName:String) {
+    public convenience init(rsImageName:String) {
         
         self.init(image: UIImage(named: rsImageName))
     }
@@ -31,7 +31,7 @@ class RSImageView: UIImageView {
     /// - Parameters:
     ///   - rsImageName: rsImageName 图片名称
     ///   - rsCapInsets: rsCapInsets 拉伸缩进距离
-    convenience init(rsImageName: String,rsCapInsets:UIEdgeInsets) {
+    public convenience init(rsImageName: String,rsCapInsets:UIEdgeInsets) {
         
         let rsImage = UIImage(named: rsImageName)?.resizableImage(withCapInsets: rsCapInsets, resizingMode: UIImage.ResizingMode.stretch)
         self.init(image: rsImage)
@@ -43,7 +43,7 @@ class RSImageView: UIImageView {
     
     /// 属性设置
     /// 设置圆角
-    open var rsCornerRadius:CGFloat = 0.0 {
+    public var rsCornerRadius:CGFloat = 0.0 {
         
         didSet{
             

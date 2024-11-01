@@ -9,14 +9,14 @@ import UIKit
 import Foundation
 
 /// RSCollectionViewCell
-class RSCollectionViewCell: UICollectionViewCell {
+public class RSCollectionViewCell: UICollectionViewCell {
     
     /// rsIndexPath
-    open var rsIndexPath:IndexPath = RSDefaultIndexPath
+    public var rsIndexPath:IndexPath = RSDefaultIndexPath
     
     /// Description
     /// - Parameter frame: frame description
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         self.rsAddLayoutConstraintWithSubviews()
@@ -30,5 +30,5 @@ class RSCollectionViewCell: UICollectionViewCell {
 
 extension RSCollectionViewCell{
     
-    @objc open func rsAddLayoutConstraintWithSubviews() {}
+    @objc public func rsAddLayoutConstraintWithSubviews() {}
 }

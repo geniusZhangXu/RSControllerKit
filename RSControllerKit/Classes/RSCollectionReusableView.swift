@@ -9,14 +9,14 @@ import UIKit
 import Foundation
 
 /// RSCollectionReusableView
-class RSCollectionReusableView: UICollectionReusableView {
+public class RSCollectionReusableView: UICollectionReusableView {
     
     /// rsIndexPath
-    open var rsIndexPath:IndexPath = RSDefaultIndexPath
+    public var rsIndexPath:IndexPath = RSDefaultIndexPath
     
     /// Description
     /// - Parameter frame: frame description
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         self.rsAddLayoutConstraintWithSubviews()
@@ -30,5 +30,5 @@ class RSCollectionReusableView: UICollectionReusableView {
 
 extension RSCollectionReusableView{
     
-    @objc open func rsAddLayoutConstraintWithSubviews() {}
+    @objc public func rsAddLayoutConstraintWithSubviews() {}
 }

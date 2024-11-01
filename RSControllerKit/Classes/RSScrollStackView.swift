@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 /// RSScrollStackView
-class RSScrollStackView: RSView {
+public class RSScrollStackView: RSView {
     
     /// fizzScrollView
     lazy var rsScrollView: UIScrollView = {
@@ -22,7 +22,7 @@ class RSScrollStackView: RSView {
     }()
     
     /// rsStackView
-    open lazy var rsStackView: UIStackView = {
+    public lazy var rsStackView: UIStackView = {
         
         let rsStackView = UIStackView()
         rsStackView.axis = .vertical
@@ -35,7 +35,7 @@ class RSScrollStackView: RSView {
 
 extension RSScrollStackView{
     
-    override func rsAddLayoutConstraintWithSubviews() {
+    public override func rsAddLayoutConstraintWithSubviews() {
         super.rsAddLayoutConstraintWithSubviews()
         
         self.addSubview(self.rsScrollView)

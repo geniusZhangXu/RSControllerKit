@@ -7,7 +7,33 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+/// RSView
+let rsView = RSView()
+    
+/// RSButton
+let rsButton = RSButton.init("image")
+
+/// RSLabel
+let rsLabel = RSLabel.init(frame: CGRect.zero)
+
+/// RSImageView
+let rsImageView = RSImageView.init(rsImageName: "image")
+
+/// RSScrollStackView
+let rsScrollStackView = RSScrollStackView()
+rsScrollStackView.rsStackView.addArrangedSubview(rsImageView)
+
+/// RSViewController
+let rsViewController = RSViewController()
+rsViewController.rsReturnBtnImage = "image"
+
+/// RSWebController
+let rsWebController = RSWebController("load-url")
+
+/// RSNavigationController
+let rsNavigationController = RSNavigationController(rootViewController: rsViewController)
+```
 
 ## Requirements
 

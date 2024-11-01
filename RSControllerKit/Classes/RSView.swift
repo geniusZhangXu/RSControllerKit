@@ -9,11 +9,11 @@ import UIKit
 import Foundation
 
 /// RSView
-class RSView: UIView {
+public class RSView: UIView {
     
     /// Description
     /// - Parameter frame: frame description
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         self.backgroundColor = .clear
@@ -26,7 +26,7 @@ class RSView: UIView {
     }
     
     /// 设置View的圆角
-    open var rsCornerRadius:CGFloat = 0 {
+    public var rsCornerRadius:CGFloat = 0 {
         
         didSet{
             self.layer.masksToBounds = true
@@ -35,7 +35,7 @@ class RSView: UIView {
     }
     
     /// 设置View的边框颜色
-    open var rsBorderColor:UIColor = .red {
+    public var rsBorderColor:UIColor = .red {
         
         didSet{
             self.layer.borderWidth = 1
@@ -47,7 +47,7 @@ class RSView: UIView {
 
 extension RSView{
     
-    @objc open func rsAddLayoutConstraintWithSubviews() {}
+    @objc public func rsAddLayoutConstraintWithSubviews() {}
 }
 
 

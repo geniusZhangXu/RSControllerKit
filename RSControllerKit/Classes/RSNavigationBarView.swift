@@ -9,10 +9,10 @@ import UIKit
 import Foundation
 
 /// RSNavigationBarView
-class RSNavigationBarView: RSView {
+public class RSNavigationBarView: RSView {
     
     /// 返回按钮
-    open lazy var rsReturnButton: RSButton = {
+    public lazy var rsReturnButton: RSButton = {
         
         let rsReturnButton = RSButton(type: .custom)
         rsReturnButton.translatesAutoresizingMaskIntoConstraints = false
@@ -20,7 +20,7 @@ class RSNavigationBarView: RSView {
     }()
     
     /// 导航的标题
-    open lazy var rsTitleLabel: RSLabel = {
+    public lazy var rsTitleLabel: RSLabel = {
         
         let rsTitleLabel  = RSLabel.init(frame: CGRect.zero)
         rsTitleLabel.textAlignment = .center
@@ -30,7 +30,7 @@ class RSNavigationBarView: RSView {
     
     /// 右边的按钮
     /// 需要定义成变量-后续我们可以直接赋值给它
-    open var rsRightButton: RSButton?{
+    public var rsRightButton: RSButton?{
         
         didSet {
             

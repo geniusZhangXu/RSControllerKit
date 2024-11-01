@@ -9,16 +9,16 @@ import UIKit
 import Foundation
 
 /// RSNavigationController
-class RSNavigationController: UINavigationController {
+public class RSNavigationController: UINavigationController {
     
     /// 参数的具体描述在便利初始化方法里面
-    var rsHidesBottomBarWhenPushedController:[UIViewController.Type] = []
+    public var rsHidesBottomBarWhenPushedController:[UIViewController.Type] = []
     
     /// 便利初始化RSNavigationController
     /// - Parameters:
     ///   - rsRootController: rsRootController description
     ///   - rsHidesBottomBarWhenPushedController: rsHidesBottomBarWhenPushedController 那些控制器在popToViewController方法中需要特殊处理hidesBottomBarWhenPushed
-    convenience init(rsRootController:UIViewController,_ rsHidesBottomBarWhenPushedController:[UIViewController.Type] = []) {
+    public convenience init(rsRootController:UIViewController,_ rsHidesBottomBarWhenPushedController:[UIViewController.Type] = []) {
         
         self.init(rootViewController: rsRootController)
         
@@ -31,7 +31,7 @@ class RSNavigationController: UINavigationController {
 extension RSNavigationController{
     
     /// viewDidLoad
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         
         super.viewDidLoad()
         /// 隐藏掉这两个是为了方便我们自定义重写
@@ -43,7 +43,7 @@ extension RSNavigationController{
     /// - Parameters:
     ///   - viewController: viewController description
     ///   - animated: animated description
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    public override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         if self.viewControllers.count > 0{
             viewController.hidesBottomBarWhenPushed = true
@@ -56,7 +56,7 @@ extension RSNavigationController{
     ///   - viewController: viewController description
     ///   - animated: animated description
     /// - Returns: description
-    override func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]? {
+    public override func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]? {
         
         guard let lastController = self.viewControllers.last else { return super.popToViewController(viewController, animated: animated)}
         
@@ -82,7 +82,7 @@ extension RSNavigationController{
     /// Description
     /// - Parameter animated: animated description
     /// - Returns: description
-    override func popToRootViewController(animated: Bool) -> [UIViewController]? {
+    public override func popToRootViewController(animated: Bool) -> [UIViewController]? {
         
         self.topViewController?.hidesBottomBarWhenPushed = false
         return super.popToRootViewController(animated: animated)
