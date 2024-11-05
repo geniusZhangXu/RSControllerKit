@@ -1,5 +1,5 @@
 PODS:
-  - RSControllerKit (0.0.3)
+  - RSControllerKit (0.0.4)
 
 DEPENDENCIES:
   - RSControllerKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RSControllerKit: 906e7ca17b71099e7c71f1af11b0f79c7b56731d
+  RSControllerKit: ea3541f529c34d8f83d87beb2d7ad056263d0db1
 
 PODFILE CHECKSUM: 877df6b7265ab39d449a61a50c917a12b8635451
 

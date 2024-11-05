@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 /// RSViewController
-public class RSViewController: UIViewController {
+open class RSViewController: UIViewController {
     
     /// rsNavigationBarView
     public lazy var rsNavigationBarView: RSNavigationBarView = {
@@ -27,6 +27,16 @@ public class RSViewController: UIViewController {
         rsContentView.frame = CGRect.init(x: 0, y: 0, width: RSScreenWidth, height: RSScreenHeight)
         rsContentView.backgroundColor = .clear
         return rsContentView
+    }()
+    
+    /// rsBgImageView
+    public lazy var rsBgImageView: RSImageView = {
+        
+        let rsBgImageView = RSImageView(image: nil)
+        rsBgImageView.backgroundColor = .clear
+        rsBgImageView.contentMode = .scaleAspectFit
+        rsBgImageView.frame = CGRect.init(x: 0, y: 0, width: RSScreenWidth, height: RSScreenHeight)
+        return rsBgImageView
     }()
     
     /// 设置Navigation的标题
@@ -134,6 +144,7 @@ extension RSViewController{
         
         self.view.backgroundColor = .white
         self.view.addSubview(self.rsContentView)
+        self.view.addSubview(self.rsBgImageView)
         self.view.addSubview(self.rsNavigationBarView)
     }
     

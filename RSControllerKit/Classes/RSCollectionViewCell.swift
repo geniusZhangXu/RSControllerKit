@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 /// RSCollectionViewCell
-public class RSCollectionViewCell: UICollectionViewCell {
+open class RSCollectionViewCell: UICollectionViewCell {
     
     /// rsIndexPath
     public var rsIndexPath:IndexPath = RSDefaultIndexPath
@@ -22,7 +22,7 @@ public class RSCollectionViewCell: UICollectionViewCell {
         self.rsAddLayoutConstraintWithSubviews()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

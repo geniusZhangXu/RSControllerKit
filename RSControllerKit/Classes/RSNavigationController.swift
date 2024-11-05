@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 /// RSNavigationController
-public class RSNavigationController: UINavigationController {
+open class RSNavigationController: UINavigationController {
     
     /// 参数的具体描述在便利初始化方法里面
     public var rsHidesBottomBarWhenPushedController:[UIViewController.Type] = []
