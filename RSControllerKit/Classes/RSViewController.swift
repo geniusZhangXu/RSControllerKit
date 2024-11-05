@@ -35,7 +35,7 @@ open class RSViewController: UIViewController {
         let rsBgImageView = RSImageView(image: nil)
         rsBgImageView.backgroundColor = .clear
         rsBgImageView.contentMode = .scaleAspectFit
-        rsBgImageView.frame = CGRect.init(x: 0, y: 0, width: RSScreenWidth, height: RSScreenHeight)
+        rsBgImageView.translatesAutoresizingMaskIntoConstraints = false
         return rsBgImageView
     }()
     
@@ -144,8 +144,17 @@ extension RSViewController{
         
         self.view.backgroundColor = .white
         self.view.addSubview(self.rsContentView)
-        self.view.addSubview(self.rsBgImageView)
         self.view.addSubview(self.rsNavigationBarView)
+        ///
+        /// 添加一张可能会存在的背景图-不固定高度
+        self.rsContentView.addSubview(self.rsBgImageView)
+        NSLayoutConstraint.activate([
+           
+            self.rsBgImageView.topAnchor.constraint(equalTo: self.rsContentView.topAnchor),
+            self.rsBgImageView.leadingAnchor.constraint(equalTo: self.rsContentView.leadingAnchor),
+            self.rsBgImageView.trailingAnchor.constraint(equalTo: self.rsContentView.trailingAnchor)
+        ])
+        
     }
     
     /// 返回按钮点击事件
