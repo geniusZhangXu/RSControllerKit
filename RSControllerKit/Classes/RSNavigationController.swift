@@ -31,7 +31,7 @@ open class RSNavigationController: UINavigationController {
 extension RSNavigationController{
     
     /// viewDidLoad
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         
         super.viewDidLoad()
         /// 隐藏掉这两个是为了方便我们自定义重写
@@ -43,7 +43,7 @@ extension RSNavigationController{
     /// - Parameters:
     ///   - viewController: viewController description
     ///   - animated: animated description
-    public override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    open override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         if self.viewControllers.count > 0{
             viewController.hidesBottomBarWhenPushed = true
@@ -56,7 +56,7 @@ extension RSNavigationController{
     ///   - viewController: viewController description
     ///   - animated: animated description
     /// - Returns: description
-    public override func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]? {
+    open override func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]? {
         
         guard let lastController = self.viewControllers.last else { return super.popToViewController(viewController, animated: animated)}
         
@@ -82,7 +82,7 @@ extension RSNavigationController{
     /// Description
     /// - Parameter animated: animated description
     /// - Returns: description
-    public override func popToRootViewController(animated: Bool) -> [UIViewController]? {
+    open override func popToRootViewController(animated: Bool) -> [UIViewController]? {
         
         self.topViewController?.hidesBottomBarWhenPushed = false
         return super.popToRootViewController(animated: animated)

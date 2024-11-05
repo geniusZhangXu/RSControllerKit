@@ -30,5 +30,5 @@ public class RSCollectionReusableView: UICollectionReusableView {
 
 extension RSCollectionReusableView{
     
-    @objc public func rsAddLayoutConstraintWithSubviews() {}
+    @objc open func rsAddLayoutConstraintWithSubviews() {}
 }

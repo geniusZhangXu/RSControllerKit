@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0732D109F74D09CF00A73EFE423E3A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0A08AEA60D1E1C526F0C8E12E5CB4860 /* RSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D3C0EFAFAE98803C7A13A055A3E03 /* RSCollectionViewCell.swift */; };
-		0CE1B81562506E7A20C054A99A6E1FA7 /* RSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB7B28B99A931F2CF0EA839D68C161 /* RSViewController.swift */; };
-		14267725936A7F92BECB4265E7254E19 /* RSWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5005167A81B19A8E4A5437F00D4C77 /* RSWebController.swift */; };
-		1646B11C8777F0E451528716AB18F5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1BB2A3A139CDA1C2E64A7F8BFF41DAB8 /* RSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A56C2AE87CF130FD8FF3DA154A0F7 /* RSNavigationController.swift */; };
-		1D24205301C85FDF101563777F095E11 /* RSTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7707B4D6D11FB10F44D02A97E1CE9 /* RSTabbarController.swift */; };
-		2DED0A14C6E9B309B67C84715E2778E5 /* RSNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D1E29A5B663C924053715865045252 /* RSNavigationBarView.swift */; };
-		3EB26F98DC0A29168C6095CBEA6E92E2 /* RSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A2A70F64728EDCCE9EDAE7EB40DE2 /* RSButton.swift */; };
-		532D380C9EEEB29FAEE961ED27B2FC97 /* RSControllerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE74992E0900D7BEF81F3BAD67F79397 /* RSControllerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D1449FD8B764EC2FBC07346711C5F89 /* RSScrollStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCEBC8E9B3AD6FF86090526480367 /* RSScrollStackView.swift */; };
-		7102612317AED62A479B34218AEDE98E /* RSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC4590C85EEC02DD56676AAC5C6ED8 /* RSImageView.swift */; };
-		9325E750885CD587CB3BDCC1CB98B457 /* RSKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA6CA31DC4132D34802E3DBB66C57A /* RSKey.swift */; };
-		98C3A99D173EE71FDB6153549F26E066 /* RSControllerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8F8B04580543048231A5999EB145A /* RSControllerKit-dummy.m */; };
-		A4DD4723A61737D3CCD6B12B768D13FB /* Pods-RSControllerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D531FD5DED88A8C1F1D43EBAC7FFDB3E /* Pods-RSControllerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9DF2C7DBCB52109AB5A368FE10DEDB7 /* RSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A595A166FE0F277434624D7DE489903A /* RSView.swift */; };
-		B0D5DFB052E335092E45997672C1AE9A /* RSCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964FF85C2EBEECFBDD8A6F5AE606271 /* RSCollectionReusableView.swift */; };
-		E8BF40D556DD27A54F1F4834BDF9FC45 /* RSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB6C2FFBFDAA11C53E09551E5232A8 /* RSLabel.swift */; };
-		F1D9CA3368363D6CAE3889926B7F1B3C /* Pods-RSControllerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41BAA69B92FCA39799EE298D0CC468A /* Pods-RSControllerKit_Example-dummy.m */; };
+		01617B68C074FB295E64B098D5007E44 /* RSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC4590C85EEC02DD56676AAC5C6ED8 /* RSImageView.swift */; };
+		08AFD5BECDC2CAE124C49A80495B41D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		10F83DED36ED075B2C58B02E1ACF4E98 /* RSScrollStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCEBC8E9B3AD6FF86090526480367 /* RSScrollStackView.swift */; };
+		4F8434EB1070AE9C0676B98C4CDBB9B6 /* RSCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964FF85C2EBEECFBDD8A6F5AE606271 /* RSCollectionReusableView.swift */; };
+		4FA1EF0DA35B2A946B54FA542FC217F9 /* RSKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA6CA31DC4132D34802E3DBB66C57A /* RSKey.swift */; };
+		4FA37ADDFC14A71D37A2E14006B92F55 /* Pods-RSControllerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D531FD5DED88A8C1F1D43EBAC7FFDB3E /* Pods-RSControllerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51338EA3E1CB97945929336888D89CDA /* Pods-RSControllerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41BAA69B92FCA39799EE298D0CC468A /* Pods-RSControllerKit_Example-dummy.m */; };
+		79094FF53EFFA40FA519C5CC12F4E1AC /* RSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB7B28B99A931F2CF0EA839D68C161 /* RSViewController.swift */; };
+		7A86D8CD8FAACAC3CDE3C17B2B3A0A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		876B7BB94DAC585852B2B3B9428A25A7 /* RSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A56C2AE87CF130FD8FF3DA154A0F7 /* RSNavigationController.swift */; };
+		ADB6F536752708E6BBA1C5E7E696E40E /* RSTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7707B4D6D11FB10F44D02A97E1CE9 /* RSTabbarController.swift */; };
+		B2BE096A6B3D15D28B595DA08E81289E /* RSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D3C0EFAFAE98803C7A13A055A3E03 /* RSCollectionViewCell.swift */; };
+		B6CC0137500BA174C283B5F4D7F4BDD6 /* RSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB6C2FFBFDAA11C53E09551E5232A8 /* RSLabel.swift */; };
+		C2621A17D9F4CE002453EA4664318C4F /* RSWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5005167A81B19A8E4A5437F00D4C77 /* RSWebController.swift */; };
+		D23DFC10DE5ED08BF1D94794CA62195B /* RSControllerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE74992E0900D7BEF81F3BAD67F79397 /* RSControllerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E14893E310CC8C574E5D8125BBB942CE /* RSNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D1E29A5B663C924053715865045252 /* RSNavigationBarView.swift */; };
+		E3F023B3FCE62B8B2CBA08FAB0BAA747 /* RSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A595A166FE0F277434624D7DE489903A /* RSView.swift */; };
+		EC6CF64B5B4F6F68BEAB76D057A82176 /* RSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A2A70F64728EDCCE9EDAE7EB40DE2 /* RSButton.swift */; };
+		F5B997513B36C045F30D4CB28E4C62AE /* RSControllerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8F8B04580543048231A5999EB145A /* RSControllerKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		229388D40F29F96D30D7E4600AD30058 /* PBXContainerItemProxy */ = {
+		49A61874BA9E0D2D3E0C3433EF243817 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -48,13 +48,13 @@
 		1C3B57145BC1A81EE6CA3F627D1F3B89 /* Pods-RSControllerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSControllerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2AA7707B4D6D11FB10F44D02A97E1CE9 /* RSTabbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSTabbarController.swift; path = RSControllerKit/Classes/RSTabbarController.swift; sourceTree = "<group>"; };
 		32FA6CA31DC4132D34802E3DBB66C57A /* RSKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSKey.swift; path = RSControllerKit/Classes/RSKey.swift; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3930F0797BC266A49C4F75EA9B567C41 /* Pods-RSControllerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSControllerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0A2A70F64728EDCCE9EDAE7EB40DE2 /* RSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSButton.swift; path = RSControllerKit/Classes/RSButton.swift; sourceTree = "<group>"; };
 		4E9A56C2AE87CF130FD8FF3DA154A0F7 /* RSNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSNavigationController.swift; path = RSControllerKit/Classes/RSNavigationController.swift; sourceTree = "<group>"; };
 		62AE4479F94FEBB3AE7BB40455BFD8E2 /* RSControllerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSControllerKit.modulemap; sourceTree = "<group>"; };
 		6AFB7B28B99A931F2CF0EA839D68C161 /* RSViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSViewController.swift; path = RSControllerKit/Classes/RSViewController.swift; sourceTree = "<group>"; };
 		6F0913302A4E4A6C702AA9EC0A2344EB /* Pods-RSControllerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSControllerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7964FF85C2EBEECFBDD8A6F5AE606271 /* RSCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCollectionReusableView.swift; path = RSControllerKit/Classes/RSCollectionReusableView.swift; sourceTree = "<group>"; };
 		796681CF672C5DA19937B2B6BDDE0438 /* Pods-RSControllerKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RSControllerKit_Example"; path = Pods_RSControllerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5B690B59936E0BBE03BEF0FFDAA582 /* Pods-RSControllerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSControllerKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -78,19 +78,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62F1F31EF280101DB85556E6D1D767AE /* Frameworks */ = {
+		26D0471DB9EBE5FF37996F13E5901BD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1646B11C8777F0E451528716AB18F5A5 /* Foundation.framework in Frameworks */,
+				08AFD5BECDC2CAE124C49A80495B41D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB2D0A1D4154FD37A00B771CA0CEDBDD /* Frameworks */ = {
+		60C3DBB1776A7211CE29F9FC63CB3357 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0732D109F74D09CF00A73EFE423E3A5B /* Foundation.framework in Frameworks */,
+				7A86D8CD8FAACAC3CDE3C17B2B3A0A34 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,14 +120,6 @@
 				83C46AC5D70C634E5702FE86150403BF /* RSControllerKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		70B9FC17BEDB46C55D04C7D772FB14C3 /* Support Files */ = {
@@ -200,9 +192,17 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F6AEE87EEE4FF6200A02CBB9861E1C77 /* Products */ = {
@@ -217,19 +217,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A6E04F64AD8319793698656667F0C8D0 /* Headers */ = {
+		17EBF0DFFFFFD6ADCE9B608FD3AB4CE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DD4723A61737D3CCD6B12B768D13FB /* Pods-RSControllerKit_Example-umbrella.h in Headers */,
+				D23DFC10DE5ED08BF1D94794CA62195B /* RSControllerKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADAE9DF3B98FE17429B7BF9EC87A4DDA /* Headers */ = {
+		CEB77EB02CFD52377B183B378D167788 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532D380C9EEEB29FAEE961ED27B2FC97 /* RSControllerKit-umbrella.h in Headers */,
+				4FA37ADDFC14A71D37A2E14006B92F55 /* Pods-RSControllerKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,17 +238,17 @@
 /* Begin PBXNativeTarget section */
 		0208C7DF77542A3FF3A9D7A167E59B58 /* Pods-RSControllerKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB94285A90FC15F98D9568793AC85A4 /* Build configuration list for PBXNativeTarget "Pods-RSControllerKit_Example" */;
+			buildConfigurationList = 91BEBB286F401B6540FCA351652DC3BC /* Build configuration list for PBXNativeTarget "Pods-RSControllerKit_Example" */;
 			buildPhases = (
-				A6E04F64AD8319793698656667F0C8D0 /* Headers */,
-				4FCCD55CA3D1CF83D1C8413C645377BA /* Sources */,
-				EB2D0A1D4154FD37A00B771CA0CEDBDD /* Frameworks */,
-				22F9FBDCAA55D36546C65D900B3A16F6 /* Resources */,
+				CEB77EB02CFD52377B183B378D167788 /* Headers */,
+				25366FC079B655DEDBDB66976E975FCB /* Sources */,
+				60C3DBB1776A7211CE29F9FC63CB3357 /* Frameworks */,
+				1B3E51D25A314832838823E63F8028F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5658940975F5F7439AD6C4B9A9569D9A /* PBXTargetDependency */,
+				19725EEF2AEDDD59B0C273C416DE3CB9 /* PBXTargetDependency */,
 			);
 			name = "Pods-RSControllerKit_Example";
 			productName = Pods_RSControllerKit_Example;
@@ -257,12 +257,12 @@
 		};
 		0AA5CC6002000FBD421281A8CE2A8C34 /* RSControllerKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B86BDC959DBB506182D660960C3CD1D /* Build configuration list for PBXNativeTarget "RSControllerKit" */;
+			buildConfigurationList = 8F51487D8E9B7A649E84227695E9C7DC /* Build configuration list for PBXNativeTarget "RSControllerKit" */;
 			buildPhases = (
-				ADAE9DF3B98FE17429B7BF9EC87A4DDA /* Headers */,
-				BE554A37DE9EDBDCD6F7B8423FB2B318 /* Sources */,
-				62F1F31EF280101DB85556E6D1D767AE /* Frameworks */,
-				78D78A05CFD2FDDBDCF85DA487B63BA5 /* Resources */,
+				17EBF0DFFFFFD6ADCE9B608FD3AB4CE8 /* Headers */,
+				1C3DFAC3519E84803E01E276AD8C3833 /* Sources */,
+				26D0471DB9EBE5FF37996F13E5901BD6 /* Frameworks */,
+				89E294941149C6E415D3318A14F1169D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -279,8 +279,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -292,6 +292,7 @@
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = F6AEE87EEE4FF6200A02CBB9861E1C77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -303,14 +304,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22F9FBDCAA55D36546C65D900B3A16F6 /* Resources */ = {
+		1B3E51D25A314832838823E63F8028F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78D78A05CFD2FDDBDCF85DA487B63BA5 /* Resources */ = {
+		89E294941149C6E415D3318A14F1169D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,80 +321,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FCCD55CA3D1CF83D1C8413C645377BA /* Sources */ = {
+		1C3DFAC3519E84803E01E276AD8C3833 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D9CA3368363D6CAE3889926B7F1B3C /* Pods-RSControllerKit_Example-dummy.m in Sources */,
+				EC6CF64B5B4F6F68BEAB76D057A82176 /* RSButton.swift in Sources */,
+				4F8434EB1070AE9C0676B98C4CDBB9B6 /* RSCollectionReusableView.swift in Sources */,
+				B2BE096A6B3D15D28B595DA08E81289E /* RSCollectionViewCell.swift in Sources */,
+				F5B997513B36C045F30D4CB28E4C62AE /* RSControllerKit-dummy.m in Sources */,
+				01617B68C074FB295E64B098D5007E44 /* RSImageView.swift in Sources */,
+				4FA1EF0DA35B2A946B54FA542FC217F9 /* RSKey.swift in Sources */,
+				B6CC0137500BA174C283B5F4D7F4BDD6 /* RSLabel.swift in Sources */,
+				E14893E310CC8C574E5D8125BBB942CE /* RSNavigationBarView.swift in Sources */,
+				876B7BB94DAC585852B2B3B9428A25A7 /* RSNavigationController.swift in Sources */,
+				10F83DED36ED075B2C58B02E1ACF4E98 /* RSScrollStackView.swift in Sources */,
+				ADB6F536752708E6BBA1C5E7E696E40E /* RSTabbarController.swift in Sources */,
+				E3F023B3FCE62B8B2CBA08FAB0BAA747 /* RSView.swift in Sources */,
+				79094FF53EFFA40FA519C5CC12F4E1AC /* RSViewController.swift in Sources */,
+				C2621A17D9F4CE002453EA4664318C4F /* RSWebController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE554A37DE9EDBDCD6F7B8423FB2B318 /* Sources */ = {
+		25366FC079B655DEDBDB66976E975FCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB26F98DC0A29168C6095CBEA6E92E2 /* RSButton.swift in Sources */,
-				B0D5DFB052E335092E45997672C1AE9A /* RSCollectionReusableView.swift in Sources */,
-				0A08AEA60D1E1C526F0C8E12E5CB4860 /* RSCollectionViewCell.swift in Sources */,
-				98C3A99D173EE71FDB6153549F26E066 /* RSControllerKit-dummy.m in Sources */,
-				7102612317AED62A479B34218AEDE98E /* RSImageView.swift in Sources */,
-				9325E750885CD587CB3BDCC1CB98B457 /* RSKey.swift in Sources */,
-				E8BF40D556DD27A54F1F4834BDF9FC45 /* RSLabel.swift in Sources */,
-				2DED0A14C6E9B309B67C84715E2778E5 /* RSNavigationBarView.swift in Sources */,
-				1BB2A3A139CDA1C2E64A7F8BFF41DAB8 /* RSNavigationController.swift in Sources */,
-				6D1449FD8B764EC2FBC07346711C5F89 /* RSScrollStackView.swift in Sources */,
-				1D24205301C85FDF101563777F095E11 /* RSTabbarController.swift in Sources */,
-				A9DF2C7DBCB52109AB5A368FE10DEDB7 /* RSView.swift in Sources */,
-				0CE1B81562506E7A20C054A99A6E1FA7 /* RSViewController.swift in Sources */,
-				14267725936A7F92BECB4265E7254E19 /* RSWebController.swift in Sources */,
+				51338EA3E1CB97945929336888D89CDA /* Pods-RSControllerKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5658940975F5F7439AD6C4B9A9569D9A /* PBXTargetDependency */ = {
+		19725EEF2AEDDD59B0C273C416DE3CB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSControllerKit;
 			target = 0AA5CC6002000FBD421281A8CE2A8C34 /* RSControllerKit */;
-			targetProxy = 229388D40F29F96D30D7E4600AD30058 /* PBXContainerItemProxy */;
+			targetProxy = 49A61874BA9E0D2D3E0C3433EF243817 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1965C8DCC2F9F53A8B4D5891B2CAF241 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A79197E05105B375A328DB573372C3 /* RSControllerKit.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RSControllerKit/RSControllerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RSControllerKit/RSControllerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RSControllerKit/RSControllerKit.modulemap";
-				PRODUCT_MODULE_NAME = RSControllerKit;
-				PRODUCT_NAME = RSControllerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6F63812C9E7E9DA375C0AE5006808475 /* Release */ = {
+		0AA2B0364573A6C442F95B6488664585 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 185B59760A5D03CCBE7EA7BF648D8BF9 /* RSControllerKit.release.xcconfig */;
 			buildSettings = {
@@ -407,7 +376,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/RSControllerKit/RSControllerKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/RSControllerKit/RSControllerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -418,7 +390,81 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C6CF1CE582318F51742FA1F1B32946B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3930F0797BC266A49C4F75EA9B567C41 /* Pods-RSControllerKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6220CAD758099B429A150FA433C2F832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F89550C78E512228B093C986D8AC42 /* Pods-RSControllerKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -492,40 +538,6 @@
 			};
 			name = Debug;
 		};
-		93EEB59F1D4DD7BB004D4CAF30E90C72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3930F0797BC266A49C4F75EA9B567C41 /* Pods-RSControllerKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -588,11 +600,10 @@
 			};
 			name = Release;
 		};
-		DE4DE4AA8691462324D173E682E333B3 /* Release */ = {
+		FE82373CC49CCC526CEA95355AABC022 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01F89550C78E512228B093C986D8AC42 /* Pods-RSControllerKit_Example.release.xcconfig */;
+			baseConfigurationReference = 03A79197E05105B375A328DB573372C3 /* RSControllerKit.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -603,38 +614,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/RSControllerKit/RSControllerKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/RSControllerKit/RSControllerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSControllerKit_Example/Pods-RSControllerKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/RSControllerKit/RSControllerKit.modulemap";
+				PRODUCT_MODULE_NAME = RSControllerKit;
+				PRODUCT_NAME = RSControllerKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B86BDC959DBB506182D660960C3CD1D /* Build configuration list for PBXNativeTarget "RSControllerKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1965C8DCC2F9F53A8B4D5891B2CAF241 /* Debug */,
-				6F63812C9E7E9DA375C0AE5006808475 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -644,11 +648,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB94285A90FC15F98D9568793AC85A4 /* Build configuration list for PBXNativeTarget "Pods-RSControllerKit_Example" */ = {
+		8F51487D8E9B7A649E84227695E9C7DC /* Build configuration list for PBXNativeTarget "RSControllerKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93EEB59F1D4DD7BB004D4CAF30E90C72 /* Debug */,
-				DE4DE4AA8691462324D173E682E333B3 /* Release */,
+				FE82373CC49CCC526CEA95355AABC022 /* Debug */,
+				0AA2B0364573A6C442F95B6488664585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BEBB286F401B6540FCA351652DC3BC /* Build configuration list for PBXNativeTarget "Pods-RSControllerKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6CF1CE582318F51742FA1F1B32946B /* Debug */,
+				6220CAD758099B429A150FA433C2F832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

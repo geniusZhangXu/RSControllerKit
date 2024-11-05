@@ -73,7 +73,7 @@ open class RSViewController: UIViewController {
 extension RSViewController{
     
     /// Description
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
          
         /// 处理RSViewController的基础配置数据
@@ -82,7 +82,7 @@ extension RSViewController{
     
     /// Description
     /// - Parameter animated: animated description
-    public override func viewWillAppear(_ animated: Bool) {
+    open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
   
         self.rsControllerActiveState = true
@@ -90,17 +90,17 @@ extension RSViewController{
     
     /// Description
     /// - Parameter animated: animated description
-    public override func viewWillDisappear(_ animated: Bool) {
+    open override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         self.rsControllerActiveState = false
     }
     
     /// 以下方法在需要的时候进行重写
-    @objc public func rsAppWillResignActiveNotification(){}
-    @objc public func rsAppWillEnterForegroundNotification(){}
-    @objc public func rsApplicationWillTerminateNotification(){}
-    @objc public func rsAppProtectedDataWillBecomeUnavailableNotification(){}
+    @objc open func rsAppWillResignActiveNotification(){}
+    @objc open func rsAppWillEnterForegroundNotification(){}
+    @objc open func rsApplicationWillTerminateNotification(){}
+    @objc open func rsAppProtectedDataWillBecomeUnavailableNotification(){}
     
 }
 

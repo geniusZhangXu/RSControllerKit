@@ -30,5 +30,5 @@ open class RSCollectionViewCell: UICollectionViewCell {
 
 extension RSCollectionViewCell{
     
-    @objc public func rsAddLayoutConstraintWithSubviews() {}
+    @objc open func rsAddLayoutConstraintWithSubviews() {}
 }
