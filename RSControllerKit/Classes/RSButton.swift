@@ -19,6 +19,13 @@ public class RSButton: UIButton {
         self.setImage(UIImage(named: imageName), for: .normal)
     }
     
+    /// 按钮文字内容
+    public var rsTitleString:String = "" {
+        didSet{
+            self.setTitle(rsTitleString, for: .normal)
+        }
+    }
+    
     /// 设置圆角
     public var rsCornerRadius:CGFloat = 0 {
         didSet{

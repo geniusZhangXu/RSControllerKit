@@ -34,7 +34,7 @@ open class RSViewController: UIViewController {
         
         let rsBgImageView = RSImageView(image: nil)
         rsBgImageView.backgroundColor = .clear
-        rsBgImageView.contentMode = .scaleAspectFit
+        rsBgImageView.contentMode = .scaleAspectFill
         rsBgImageView.translatesAutoresizingMaskIntoConstraints = false
         return rsBgImageView
     }()
@@ -43,6 +43,13 @@ open class RSViewController: UIViewController {
     public var rsNavigationTitle:String = "" {
         didSet {
             self.rsNavigationBarView.rsTitleLabel.text = rsNavigationTitle
+        }
+    }
+    
+    /// 设置Navigation的标题字体的Font
+    public var rsNavigationTitleFont: UIFont = UIFont.systemFont(ofSize: 16) {
+        didSet {
+            self.rsNavigationBarView.rsTitleLabel.font = rsNavigationTitleFont
         }
     }
     
