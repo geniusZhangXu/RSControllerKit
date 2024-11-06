@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 /// RSView
-public class RSView: UIView {
+open class RSView: UIView {
     
     /// Description
     /// - Parameter frame: frame description
@@ -21,7 +21,7 @@ public class RSView: UIView {
         self.rsAddLayoutConstraintWithSubviews()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -47,7 +47,7 @@ public class RSView: UIView {
 
 extension RSView{
     
-    @objc public func rsAddLayoutConstraintWithSubviews() {}
+    @objc open func rsAddLayoutConstraintWithSubviews() {}
 }
 
 

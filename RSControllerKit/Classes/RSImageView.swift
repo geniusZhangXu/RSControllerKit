@@ -44,11 +44,16 @@ public class RSImageView: UIImageView {
     /// 属性设置
     /// 设置圆角
     public var rsCornerRadius:CGFloat = 0.0 {
-        
         didSet{
-            
             self.layer.cornerRadius = rsCornerRadius
             self.layer.masksToBounds = true
+        }
+    }
+    
+    /// 属性图片名称
+    public var rsImageName:String = "" {
+        didSet{
+            self.image = UIImage(named: rsImageName)
         }
     }
     
