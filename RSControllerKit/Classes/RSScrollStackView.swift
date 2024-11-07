@@ -50,10 +50,10 @@ extension RSScrollStackView{
         self.rsScrollView.addSubview(self.rsStackView)
         NSLayoutConstraint.activate([
            
-            self.rsStackView.topAnchor.constraint(equalTo: self.topAnchor),
-            self.rsStackView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            self.rsStackView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            self.rsStackView.widthAnchor.constraint(equalToConstant: RSScreenWidth)
+            self.rsStackView.widthAnchor.constraint(equalToConstant: RSScreenWidth),
+            self.rsStackView.topAnchor.constraint(equalTo: self.rsScrollView.topAnchor),
+            self.rsStackView.bottomAnchor.constraint(equalTo: self.rsScrollView.bottomAnchor),
+            self.rsStackView.leadingAnchor.constraint(equalTo: self.rsScrollView.leadingAnchor)
         ])
         
     }
