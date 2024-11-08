@@ -1,6 +1,6 @@
 //
 //  RSNavigationBarView.swift
-//  RSExtension
+//  MrRisingSun
 //
 //  Created by Mr.RisingSun on 29.10.24.
 //
@@ -47,6 +47,9 @@ public class RSNavigationBarView: RSView {
             }
         }
     }
+    
+    
+    
 }
 
 extension RSNavigationBarView{

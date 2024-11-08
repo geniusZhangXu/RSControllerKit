@@ -1,6 +1,6 @@
 //
 //  RSLabel.swift
-//  RSExtension
+//  MrRisingSun
 //
 //  Created by Mr.RisingSun on 28.10.24.
 //
@@ -34,9 +34,9 @@ public class RSLabel: UILabel {
     }
     
     /// SystemFontSize
-    public var rlSystemFont:CGFloat = 0.0 {
+    public var rsSystemFont:CGFloat = 0.0 {
         didSet{
-            self.font = UIFont.systemFont(ofSize: rlSystemFont)
+            self.font = UIFont.systemFont(ofSize: rsSystemFont)
         }
     }
     

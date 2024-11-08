@@ -11,36 +11,37 @@ import RSControllerKit
 
 class ViewController: UIViewController {
     
+    /// rsTextView
+    lazy var rsTextView: RSTextView = {
+        
+        let rsTextView = RSTextView(frame: CGRect.init(x: (RSScreenWidth - 200)/2, y: 100, width: 200, height: 100))
+        rsTextView.rsTextViewEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+        rsTextView.rsTextViewPlaceholder = "HEHEMOBI"
+        rsTextView.rsTextViewTextFont = 16.0
+        rsTextView.rsTextViewTextColor = .red
+        rsTextView.rsCornerRadius = 10
+        rsTextView.rsBorderColor = .orange
+        return rsTextView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        /// RSView
-        let rsView = RSView()
-            
-        /// RSButton
-        let rsButton = RSButton.init("image")
+        self.view.addSubview(self.rsTextView)
         
-        /// RSLabel
-        let rsLabel = RSLabel.init(frame: CGRect.zero)
+        let okButton = UIButton.init(type: .system)
+        okButton.setTitle("OKK", for: .normal)
+        okButton.titleLabel?.font = UIFont.systemFont(ofSize: 18)
+        okButton.addTarget(self, action: #selector(okButtonClickEvent), for: .touchUpInside)
+        okButton.frame = CGRect.init(x: (RSScreenWidth - 100)/2, y: 400, width: 100, height: 100)
+        self.view.addSubview(okButton)
+    }
+    
+    @objc func okButtonClickEvent(){
         
-        /// RSImageView
-        let rsImageView = RSImageView.init(rsImageName: "image")
-        
-        /// RSScrollStackView
-        let rsScrollStackView = RSScrollStackView()
-        rsScrollStackView.rsStackView.addArrangedSubview(rsImageView)
-        
-        /// RSViewController
-        let rsViewController = RSViewController()
-        rsViewController.rsReturnBtnImage = "image"
-        
-        /// RSWebController
-        let rsWebController = RSWebController("load-url")
-        
-        /// RSNavigationController
-        let rsNavigationController = RSNavigationController(rootViewController: rsViewController)
-        
+        self.view.endEditing(true)
+        debugPrint(self.rsTextView.rsTextViewTextString)
     }
 
     override func didReceiveMemoryWarning() {
