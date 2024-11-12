@@ -64,6 +64,17 @@ extension RSScrollStackView{
         self.rsStackView.addArrangedSubview(rsSubView)
     }
     
+    /// 把View插入到某个Index位置
+    /// - Parameters:
+    ///   - rsSubView: rsSubView description
+    ///   - atIndex: atIndex description
+    public func rsScrollStackInsertSubView(_ rsSubView:UIView, atIndex:Int) {
+        
+        if !self.rsStackView.subviews.contains(rsSubView) {
+            self.rsStackView.insertArrangedSubview(rsSubView, at: atIndex)
+        }
+    }
+    
     /// 删除UIStackView的子视图
     /// - Parameter rsSubView: rsSubView description
     public func rsScrollStackRemoveSubView(_ rsSubView:UIView) {

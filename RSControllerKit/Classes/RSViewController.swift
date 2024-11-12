@@ -104,11 +104,20 @@ extension RSViewController{
     }
     
     /// 以下方法在需要的时候进行重写
-    @objc open func rsAppWillResignActiveNotification(){}
-    @objc open func rsAppWillEnterForegroundNotification(){}
+    /// 应用进入后台
+    @objc open func rsAppWillResignActiveNotification(){
+        
+        self.rsControllerActiveState = false
+    }
+    
+    /// 应用回到前台
+    @objc open func rsAppWillEnterForegroundNotification(){
+        
+        self.rsControllerActiveState = true
+    }
+    
     @objc open func rsApplicationWillTerminateNotification(){}
     @objc open func rsAppProtectedDataWillBecomeUnavailableNotification(){}
-    
 }
 
 extension RSViewController{

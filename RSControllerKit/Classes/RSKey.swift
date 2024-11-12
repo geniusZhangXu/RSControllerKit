@@ -46,3 +46,14 @@ public let RSTopViewHeight = {
     return RSStatusBarHeight() + 44.0
 }
 
+/// 底部不安全区域+Tabbar的高度
+public let RSBottomViewHeight = {
+    
+    var rlBottomUnsafeHeight = 0.0
+    if let rsAppDelegateWindow = UIApplication.shared.delegate?.window {
+        if rsAppDelegateWindow?.safeAreaInsets.bottom ?? 0.0 > 0.0 {
+            rlBottomUnsafeHeight = Double(rsAppDelegateWindow?.safeAreaInsets.bottom ?? 0.0)
+        }
+    }
+    return rlBottomUnsafeHeight + 49.0
+}
