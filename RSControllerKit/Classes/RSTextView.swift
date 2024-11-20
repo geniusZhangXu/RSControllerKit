@@ -54,6 +54,20 @@ public class RSTextView: RSView {
         }
     }
     
+    /// 设置TextView的背景色
+    public var rsTextViewBgColor:UIColor = .white {
+        didSet{
+            self.rsTextView.backgroundColor = rsTextViewBgColor
+        }
+    }
+    
+    /// 设置TextView是否可编辑
+    public var rsTextViewEditable:Bool = true {
+        didSet{
+            self.rsTextView.isEditable = rsTextViewEditable
+        }
+    }
+    
     /// 设置TextView的内容字体颜色-默认black
     public var rsTextViewTextColor:UIColor = .black {
         didSet{
