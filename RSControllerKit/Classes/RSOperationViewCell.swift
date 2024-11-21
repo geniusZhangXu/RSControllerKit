@@ -46,23 +46,23 @@ fileprivate extension UICollectionView {
 ///
 /// ===================================================================================================
 /// DeleteButtonOperation
-typealias DeleteButtonOperation = (_ sender: UIButton) -> ()
+public typealias DeleteButtonOperation = (_ sender: UIButton) -> ()
 
 ///
 // MARK: - RSOperationViewCell
-class RSOperationViewCell: RSCollectionViewCell {
+open class RSOperationViewCell: RSCollectionViewCell {
         
     // MARK: - Public
     ///
     /// 自定义一个操作View
-    var rsOperationView: UIView?
+    public var rsOperationView: UIView?
     
     /// 删除操作回调
-    var rsDeleteButtonOperation: DeleteButtonOperation?
+    public var rsDeleteButtonOperation: DeleteButtonOperation?
     
     /// 隐藏操作View的动画
     /// - Parameter isAnimated: isAnimated description
-    func rsHideOperationView(withAnimated isAnimated:Bool) {
+    public func rsHideOperationView(withAnimated isAnimated:Bool) {
         
         UIView.animate(withDuration: isAnimated ? 0.1 : 0, delay: 0,options: .curveEaseOut, animations: {
                        
@@ -92,7 +92,7 @@ class RSOperationViewCell: RSCollectionViewCell {
     
     /// Description
     /// - Parameter aDecoder: aDecoder description
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         /// 添加手势
@@ -100,7 +100,7 @@ class RSOperationViewCell: RSCollectionViewCell {
     }
     
     /// 重写prepareForReuse-准备复用前的方法
-    override func prepareForReuse() {
+    open override func prepareForReuse() {
         
         super.prepareForReuse()
         self.rsSnapShotView?.removeFromSuperview()
@@ -109,7 +109,7 @@ class RSOperationViewCell: RSCollectionViewCell {
     }
     
     /// 重写layoutSubviews
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         
         super.layoutSubviews()
         guard let rsOperationView = rsOperationView else { return }
@@ -132,7 +132,7 @@ extension RSOperationViewCell:UIGestureRecognizerDelegate{
     /// Description
     /// - Parameter gestureRecognizer: gestureRecognizer description
     /// - Returns: description
-    override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+    open override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         
         if gestureRecognizer.isMember(of: UIPanGestureRecognizer.self) {
             
@@ -150,7 +150,7 @@ extension RSOperationViewCell:UIGestureRecognizerDelegate{
     ///   - gestureRecognizer: gestureRecognizer description
     ///   - otherGestureRecognizer: otherGestureRecognizer description
     /// - Returns: description
-    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         
         return otherGestureRecognizer != self.rsSuperView(of: UICollectionView.self)
     }
