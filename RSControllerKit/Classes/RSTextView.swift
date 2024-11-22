@@ -53,6 +53,13 @@ public class RSTextView: RSView {
             self.rsPlaceholderLabel.text = rsTextViewPlaceholder
         }
     }
+
+    /// 设置TextView的提示内容的字体颜色
+    public var rsTextViewPlaceholderColor:UIColor = .black {
+        didSet{
+            self.rsPlaceholderLabel.textColor = rsTextViewPlaceholderColor
+        }
+    }
     
     /// 设置TextView的背景色
     public var rsTextViewBgColor:UIColor = .white {
