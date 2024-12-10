@@ -1,6 +1,6 @@
 {
   "name": "RSControllerKit",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "Encapsulate a basic project framework!",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/geniusZhangXu/RSControllerKit.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "13.0"

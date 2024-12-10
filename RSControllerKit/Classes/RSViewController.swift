@@ -53,6 +53,13 @@ open class RSViewController: UIViewController {
         }
     }
     
+    /// 设置Navigation的标题内容颜色
+    public var rsNavigationTitleColor:UIColor = .black {
+        didSet {
+            self.rsNavigationBarView.rsTitleLabel.textColor = rsNavigationTitleColor
+        }
+    }
+    
     /// 设置返回按钮的图片
     public var rsReturnBtnImage:String = "" {
         didSet {
